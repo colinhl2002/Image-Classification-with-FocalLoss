@@ -43,7 +43,7 @@ def train_one_epoch(model, criterion, optimizer, train_loader, DEVICE):
         # save statistics
         epoch_loss.append(loss.item())
 
-        if i % 10 == 0:
-            print(f"Batch {i}, curr loss = {loss.item():.03f}")
+        # if i % 10 == 0:
+        #     print(f"Batch {i}, curr loss = {loss.item():.03f}")
 
     return np.asarray(epoch_loss).mean()
