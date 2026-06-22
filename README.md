@@ -1,4 +1,4 @@
-# 🚀 Classification d'images avec l'utilisation de la Focal Loss
+# Classification d'images avec l'utilisation de la Focal Loss
 
 Ce repository GitHub contient une implementation de la fonction **Focal Loss** pour améliorer la **classification d'images** dans le cas d'un dataset présentant un **déséquilibre de classe**.
 Il permet de se familiariser avec l'utilisation de la Focal Loss.
